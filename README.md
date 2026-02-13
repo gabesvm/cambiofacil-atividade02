@@ -75,7 +75,7 @@ src/
 
 ---
 
-# 🚀 Depois de colar o README:
+# 🚀 
 
 No terminal:
 
