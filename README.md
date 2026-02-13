@@ -1,50 +1,85 @@
-# Welcome to your Expo app 👋
+# 💱 CambioFácil - Atividade 02
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo desenvolvido com Expo + React Native + Expo Router para a disciplina da faculdade.
 
-## Get started
+O projeto possui três funcionalidades principais:
 
-1. Install dependencies
+- Conversão de Moeda
+- Cálculo de Limite de Operação
+- Cálculo de Lucro
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🇧🇷 Descrição (Português)
 
-   ```bash
-   npx expo start
-   ```
+O **CambioFácil** é um aplicativo desenvolvido para simular operações financeiras básicas, incluindo:
 
-In the output, you'll find options to open the app in a
+### 🔹 Conversão de Moeda
+Permite converter um valor em reais para outra moeda com base em uma taxa de câmbio informada.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🔹 Limite de Operação
+Calcula o limite permitido de uma operação com base em saldo disponível e percentual definido.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🔹 Cálculo de Lucro
+Calcula o lucro total e a margem percentual com base em custo, preço de venda e quantidade.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🇺🇸 Description (English)
+
+**CambioFácil** is a financial simulation app developed using Expo and React Native.
+
+It includes three main features:
+
+### 🔹 Currency Conversion
+Converts a value in BRL to another currency based on an informed exchange rate.
+
+### 🔹 Operation Limit Calculation
+Calculates the allowed operation limit based on available balance and percentage.
+
+### 🔹 Profit Calculation
+Calculates total profit and profit margin based on cost, sale price and quantity.
+
+---
+
+## 🛠 Technologies Used
+
+- Expo
+- React Native
+- Expo Router
+- TypeScript
+- JavaScript
+
+---
+
+## 🚀 How to Run
 
 ```bash
-npm run reset-project
-```
+npm install
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+app/
+ ├── (tabs)/
+ │   ├── conversao.tsx
+ │   ├── limite.tsx
+ │   └── lucro.tsx
+ └── _layout.tsx
 
-To learn more about developing your project with Expo, look at the following resources:
+src/
+ ├── screens/
+ ├── utils/
+ └── config/
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# 🚀 Depois de colar o README:
+
+No terminal:
+
+```bash
+git add README.md
+git commit -m "Atualizando README com descrição em PT e EN"
+git push
